@@ -3,7 +3,7 @@ const n2 = 15;
 
 function getGray(n) {
   n = n ^ (n >> 1);
-  console.log(n);
+  return console.log(n);
 }
 
 getGray(n1);
